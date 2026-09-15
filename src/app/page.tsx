@@ -226,55 +226,55 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 5. สมาชิกผู้จัดทำ (Team Members Section) */}
-        <div className="bg-[#1a0c38]/80 border border-purple-800/40 rounded-3xl p-8 md:p-10 backdrop-blur-xl shadow-2xl text-center">
+        {/* 5. สมาชิกผู้จัดทำ (Team Members Section - Seamless Dark Magic Theme) */}
+        <div className="pt-8 pb-4 text-center border-t border-purple-900/40">
           
-          <div className="text-3xl mb-2">👥 ✨</div>
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-1">
-            สมาชิกผู้จัดทำ
-          </h2>
-          <p className="text-purple-300/70 text-xs md:text-sm mb-8">
-            สมาชิกผู้พัฒนาระบบคำนวณและเรียนรู้เลขฐานแห่งเวทมนตร์
-          </p>
+          {/* หัวข้อ */}
+          <div className="flex items-center justify-center gap-2 mb-10">
+            <span className="text-2xl">✨</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white">
+              สมาชิก<span className="text-purple-300">ผู้จัดทำ</span>
+            </h2>
+            <span className="text-2xl">✨</span>
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* รายชื่อสมาชิก 3 คน */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end">
             
             {/* คนที่ 1: สิริมล ยืนยิ่ง */}
-            <div className="bg-[#12072b]/90 border border-purple-800/50 rounded-2xl p-6 flex flex-col items-center justify-between hover:border-purple-500 transition-all duration-300 hover:-translate-y-1">
-              <div className="text-5xl mb-4">🏰</div>
-              <p className="font-bold text-white text-base md:text-lg mb-2">
+            <div className="flex flex-col items-center group transition-transform duration-300 hover:-translate-y-2">
+              <div className="text-6xl mb-4 filter drop-shadow-[0_0_12px_rgba(236,72,153,0.3)]">🏰</div>
+              <p className="font-extrabold text-white text-lg md:text-xl mb-3">
                 นางสาวสิริมล ยืนยิ่ง
               </p>
-              <p className="text-amber-300 font-mono text-sm mb-4 font-semibold">
-                056860405013-4
-              </p>
+              <div className="bg-[#210e4a] text-purple-200 font-bold text-xs md:text-sm px-5 py-2 rounded-full border border-purple-500/30 shadow-inner">
+                รหัสนักศึกษา: 056860405013-4
+              </div>
             </div>
 
             {/* คนที่ 2: นรินทิพย์ อิ่มสวรรค์ */}
-            <div className="bg-[#12072b]/90 border border-purple-800/50 rounded-2xl p-6 flex flex-col items-center justify-between hover:border-purple-500 transition-all duration-300 hover:-translate-y-1">
-              <div className="text-5xl mb-4">👑</div>
-              <p className="font-bold text-white text-base md:text-lg mb-2">
+            <div className="flex flex-col items-center group transition-transform duration-300 hover:-translate-y-2">
+              <div className="text-6xl mb-4 filter drop-shadow-[0_0_12px_rgba(236,72,153,0.3)]">👑</div>
+              <p className="font-extrabold text-white text-lg md:text-xl mb-3">
                 นางสาวนรินทิพย์ อิ่มสวรรค์
               </p>
-              <p className="text-amber-300 font-mono text-sm mb-4 font-semibold">
-                056860405039-9
-              </p>
+              <div className="bg-[#210e4a] text-purple-200 font-bold text-xs md:text-sm px-5 py-2 rounded-full border border-purple-500/30 shadow-inner">
+                รหัสนักศึกษา: 056860405039-9
+              </div>
             </div>
 
             {/* คนที่ 3: สิรินยา ยืนชีวิต */}
-            <div className="bg-[#12072b]/90 border border-purple-800/50 rounded-2xl p-6 flex flex-col items-center justify-between hover:border-purple-500 transition-all duration-300 hover:-translate-y-1">
-              <div className="text-5xl mb-4">✨</div>
-              <p className="font-bold text-white text-base md:text-lg mb-2">
+            <div className="flex flex-col items-center group transition-transform duration-300 hover:-translate-y-2">
+              <div className="text-6xl mb-4 filter drop-shadow-[0_0_12px_rgba(236,72,153,0.3)]">🪄</div>
+              <p className="font-extrabold text-white text-lg md:text-xl mb-3">
                 นางสาวสิรินยา ยืนชีวิต
               </p>
-              <p className="text-amber-300 font-mono text-sm mb-4 font-semibold">
-                056860405063-9
-              </p>
+              <div className="bg-[#210e4a] text-purple-200 font-bold text-xs md:text-sm px-5 py-2 rounded-full border border-purple-500/30 shadow-inner">
+                รหัสนักศึกษา: 056860405063-9
+              </div>
             </div>
 
           </div>
-
-          <div className="w-full h-[1px] bg-purple-900/40 mt-10" />
         </div>
 
       </div>
